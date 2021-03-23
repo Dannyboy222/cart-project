@@ -1,1 +1,40 @@
-s
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.logo img {
+    width: 100px;
+}
+.navbar {
+    height: 74px;
+    background: #006491;
+    align-items: center;
+    justify-content: center;
+}
+.navlist {
+    display: flex;
+}
+.navbar li {
+    list-style: none;
+    padding: 28px;
+    justify-content: center;
+}
+.navbar a {
+    text-decoration: none;
+    font-size: .75em;
+    font-weight: 900;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.navbar li:hover {
+    background-color: #03517a;
+    cursor: pointer;
+}
