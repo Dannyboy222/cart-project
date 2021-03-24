@@ -16,6 +16,9 @@ body {
 .logo img {
     width: 100px;
 }
+.logo a:hover {
+    color:rgb(238, 50, 50);
+}
 .navbar {
     height: 86px;
     background: #006491;
@@ -38,8 +41,27 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
-#cart{
+#cart-info{
     font-size: 24px;
+}
+.cart {
+    position: absolute;
+    min-height: 10rem;
+    background: var(--mainwhite);
+    top: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.5);
+    width: 0;
+    overflow: hidden;
+}
+.show-cart {
+    width: 18rem;
+    padding: 2rem 1.5rem;
+    transform: rotateY(-360deg);
+}
+.cart-item {
+    transition: all 2s ease-in-out;
 }
 .navbar li:hover {
     background-color:rgb(238, 50, 50);
@@ -79,8 +101,34 @@ body {
     cursor: pointer;
     background-color: rgb(238, 50, 50);
 }
-
-
+.main {
+    margin-left: 500px;
+}
+.pro {
+    text-align: center;
+    width: 500px;
+}
+.promo {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: 2;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 920px;
+    border: 1px solid black;
+}
+.promoone {
+    grid-column: 1;
+    grid-row: 1;
+}
+.promotwo {
+    grid-column: 2;
+    grid-row: ;
+}
+.promoth {
+    grid-column: 2;
+    grid-row: 2;
+}
 /* footer */
 .footer {
     background-color: #006491;
