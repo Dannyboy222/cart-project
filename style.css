@@ -42,15 +42,22 @@ body {
     font-size: 24px;
 }
 .navbar li:hover {
-    background-color: #03517a;
+    background-color:rgb(238, 50, 50);
     cursor: pointer;
 }
 
-.menulist {
+.events {
+    text-align: center;
+}
+
+.menu {
     border: 1px solid black;
     display: flex;
     margin: 30px;
     justify-content: center;
+}
+.menulist {
+    display: flex;
 }
 
 .menuone {
@@ -70,7 +77,7 @@ body {
 }
 .btn:hover {
     cursor: pointer;
-    background-color: #03517a;
+    background-color: rgb(238, 50, 50);
 }
 
 
