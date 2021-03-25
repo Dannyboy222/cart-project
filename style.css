@@ -110,25 +110,13 @@ body {
 }
 .promo {
     display: grid;
-    grid-template-columns: 3, 1fr;
-    grid-template-rows: 2;
+    grid-template-columns: auto auto;
     grid-gap: 10px;
     padding: 10px;
     width: 920px;
     border: 1px solid black;
 }
-.promoone {
-    grid-column: 1;
-    grid-row: 1;
-}
-.promotwo {
-    grid-column: 2;
-    grid-row: ;
-}
-.promoth {
-    grid-column: 2;
-    grid-row: 2;
-}
+
 /* footer */
 .footer {
     background-color: #006491;
