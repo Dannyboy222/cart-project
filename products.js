@@ -45,7 +45,7 @@ var products = {
     130: {
         name : "Deluxe",
         desc : "Had judgment out property the supplied. ",
-        img : "deluxe",
+        img : "deluxe.jpg",
         price : 18.99
     },
     131: {
@@ -69,7 +69,7 @@ var products = {
     134: {
         name : "Pepperoni",
         desc : "Had judgment out property the supplied. ",
-        img : "pepperoni",
+        img : "pepperoni.jpg",
         price : 18.99
     },
     135: {
